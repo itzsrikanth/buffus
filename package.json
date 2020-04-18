@@ -1,7 +1,7 @@
 {
   "name": "buffus",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cache file data in memory as javascript object and flush to disk on request or automatically",
   "main": "index.js",
   "engine": {
     "node": ">=8.1.0"
