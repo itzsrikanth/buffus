@@ -1,0 +1,37 @@
+{
+  "name": "buffus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engine": {
+    "node": ">=8.1.0"
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itzsrikanth/buffus.git"
+  },
+  "keywords": [
+    "fs",
+    "memory",
+    "cache"
+  ],
+  "author": {
+    "name": "Srikanth Sharma @itzsrikanth"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itzsrikanth/buffus/issues"
+  },
+  "homepage": "https://github.com/itzsrikanth/buffus#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  },
+  "scripts": {
+    "test": "npx mocha test.js"
+  }
+}
